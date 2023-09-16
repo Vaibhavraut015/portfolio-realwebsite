@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()">X</i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" >---</i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Vaibhav Raut</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passoniate and dedicated web developer with six months of hands-on experience
+                        My journy into web developement begane with a curiosity to explore the ever-evolving
+                        digital landscape, and scienc then, I've been on a relenless pursuit of mastering the craft.
+                        During my internships, I had working on a verity of projects that honed my skills in front-end
+                        back-end developement. this experince of internship not only sharpened my technical skills but has 
+                        also instilled in me a deep application for creating user-friendly and stunning websites.
+                        I am committed to staying at the forefront of industry trends and implementing best practices in all my projects.
+                        I am exited to continue my journey in web developement, collaborate with likeminded individuals, and
+                        contribute to building innovative and impactful web solutions.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End developement</span><br>HTML, CSS, JavaScript, Bootstrap, Canva, WordPress.</li>
+                            <li><span>Back-End developement</span><br>Node js, Python, MySQL, Git, GitHub</li>
+                            <li><span>Other Skills</span><br>
+                                •	Software’s: MS-Office, Vmwar, CAD. <br>
+                                •	Operating System: Windows, Linux <br>
+                                •	Cloud : Microsoft Azure. <br>
+                                •	Programming Languages : C, Python, JavaScript, Java.
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development Intern (1 Month) 1-30 sept 2023</span><br>
+                                Code Soft Pvt Ltd (Remote)
+                                •	Build a personal portfolio website using HTML, CSS, JavaScript. <br>					
+                                •	Designed a Travel Booking website project using front end and Nodejs and MySQL. <br>
+                                •	Git hub link:-<a href="https://github.com/Vaibhavraut015/codesoft-internship">github.com/Vaibhavraut015</a>
+                                </li>
+                            <li><span>Web Development Intern (1 Month) 1-30 Aug 2023</span><br>
+                                LetsGrowMore (Remote) <br>
+                                •	Build a Todo Application and Calculator using HTML, CSS, JavaScript. <br>
+                                •	Create A Registration Form Using React.js providing user friendly platform for registration. <br>
+                                •	Developed a Student Result Management System by using HTML, CSS, JavaScript, PHP. <br>
+                                •	GitHub Link: <a href="https://github.com/Vaibhavraut015/Repositories" >github.com/Vaibhavraut015</a>
+                                
+                                </li>
+                            <li><span>Junior Engineer Intern (2 Months) March-June 2019</span><br>
+                                SNG packaging Pvt. Ltd Khamgaon	(On-Site) <br>
+                               •	Completed 2-month in plant training working under tight deadlines. <br>
+                               •	Maintain Paperwork and Documentation and attend workshops and training initiatives.
+                               </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bactlor's</span><br>Siddhivinayak Technical Campus Shegaon (Sant Gadge Baba Amaravti University) <br>Passout year-2023 7.98 CGPA</li>
+                            <li><span>Diploma</span><br>Government Polytechnic Khamgaon	(MSBTE)<br>Passout year-2020 86.36 %</li>
+                            <li><span>Marticulation</span><br>Janta Vidyalaya Jamod (SSC board)<br>Passout year-2013 88.20 %</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Front-End Design</h2>
+                        <p1>I have create websites that adapt seamlessly to verious device and screen sizes,
+                            ensuring your content looks inpeccable on desktops, tablets, and smartphones.
+                            We adhare to accessibility standards,Engage your audience with interactive features
+                            like animations,slides, and dynamic contents.
+                        </p1><br>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>Back-End Design</h2>
+                        <p1>Proficient in wide array of programming languages, I don't just build systems; I make 
+                            them lightining fast. My expeinence in optimizing backend performance ensure your application
+                            runs seamlessly, even under heavy loads.
+                        </p1><br>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <h2>VMware Administration</h2>
+                        <p1>I developed a solid foundation in VMware technologies through coursework,
+                             hands-on labs, and projects. I am well-versed in deploying, configuring, 
+                             and maintaining virtualized environments using VMware vSphere, vCenter Server, 
+                             and ESXi. My coursework also provided me with a strong understanding
+                             of networking concepts, storage management, and security practices within virtualized environments.</p1><br>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Shopping Website</h3>
+                            <p>The website containts all types of Products and services like Clothings, Accessories,
+                                Childrens toy, and many more.
+                            </p>
+                            <a href="#">&</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Travel Booking Website</h3>
+                            <p>The app connects the people worldwide and provide service to costumors book their trip from Home
+                                and also the discount on all the vacation trips and festival seasons.
+                            </p>
+                            <a href="#">&</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Calculator App</h3>
+                            <p>The app provide an user interface for calculating verious dialy maths for working proffesional from any store.</p>
+                            <a href="#">&</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>vaibhavraut015@gmail.com</p>
+                    <p>9975367046</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com">@</a>
+                        <a href="https://www.instagram.com">$</a>
+                        <a href="https://www.youtube.com">&</a>
+                        <a href="https://www.twitter.com">*</a>
+                    </div><br>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Yourname" required>
+                        <input type="email" name="email" placeholder="Yourmail" required>
+                        <textarea name="message" placeholder="message here" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright reserve Vaibhav Mahadeo raut mechanical engineer.</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+            sidemeu.style.right ="0";
+    }
+    function closemenu(){
+            sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw4qwc3Y39LZ7Ev8sP3FYnHlFyh4yrg3Df7lAm1Rc0MIgvvt5UOU6m8JmynR9f8s1mlkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
