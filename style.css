@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: faint purple;
+    background: #000000;
     color: #fff;
 }
 
@@ -402,6 +402,7 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+
 
 
 
