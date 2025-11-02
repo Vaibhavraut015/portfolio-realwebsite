@@ -8,9 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(135deg, #0097A7, #004D73);
-    color: #212121;
+    background: linear-gradient(135deg, #ECEFF1, #37474F);
+    color: #212121; /* Dark gray text for readability */
     font-family: 'Roboto', sans-serif;
+
 }
 
 #header{
@@ -403,6 +404,7 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+
 
 
 
